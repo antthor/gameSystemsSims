@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Power Grid Simulation</title>
+  <style>
+    canvas {
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+    <div>
+        <button onclick="placingMode='generator'">Add Generator</button>
+        <button onclick="placingMode='gridNode'">Add Grid Node</button>
+        <button onclick="placingMode='consumer'">Add Consumer</button>
+        <span>Click on canvas to place selected object.</span>
+      </div>
+      
+  <canvas id="simulationCanvas" width="800" height="600"></canvas>
+
+  <script src="simulation.js"></script>
+</body>
+</html>
